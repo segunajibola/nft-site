@@ -1,4 +1,4 @@
-body{
+body {
     font-size: 16px;
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
@@ -7,36 +7,36 @@ body{
 
 /* typography */
 
-h1, h3{
+h1, h3 {
     margin: 0;
 }
 
-h1{
+h1 {
     color: whitesmoke;
     font-size: 36px;
 }
 
-h2{
+h2 {
     margin-top: 0;
 }
 
-h3{
+h3 {
     color: #d0aaff;
     font-size: 20px;
 }
 
-p{
+p {
     line-height: 23px;
 }
 
 /* links */
 
-a{
+a {
     color: #ef5839;
     text-decoration: underline dotted; 
 }
 
-a:hover, a:active{
+a:hover, a:active {
     color: #d4b44c;
 }
 
@@ -49,7 +49,7 @@ Challenge:
    will need to create.
 */
 
-.btn{
+.btn {
     padding: 10px 19px;
     border-radius: 4.6px;
     font-weight: 500;
@@ -57,61 +57,61 @@ Challenge:
     display: inline-block;
 }
 
-.btn-dark{
+.btn-dark {
     background: #5f29a3;
     color: whitesmoke
 }
 
-.btn-mid{
+.btn-mid {
     background: #F0E0FF; 
     color: #5f29a3; 
 }
 
-.btn-light{
+.btn-light {
     background: whitesmoke;
     color: #5f29a3; 
 }
  
 .btn:hover, 
-.btn:active{
+.btn:active {
     background-color: #f3e885;
     color: #2b238a;
 }
 
 /* layout */
 
-header, section, footer{
+header, section, footer {
     padding: 45px 0;
 }
 
-header, .section-two{
+header, .section-two {
     background-color: #5f29a3;
 }
 
-.section-two{
+.section-two {
     color: whitesmoke;
 }
 
-.container{
+.container {
     width: 620px;
     margin: 0 auto;
 }
 
-.main-image{
+.main-image {
     width:100%;
 }
 
-.section-two-image-container{
+.section-two-image-container {
     display: flex;
     justify-content: space-between;
 }
 
-.feature-image{
+.feature-image {
     width: 300px;
     border-radius: 4.6px;
 }
 
-footer{
+footer {
     text-align: center;
     color: #5f29a3;
 }
