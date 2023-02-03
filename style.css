@@ -85,6 +85,10 @@ header, .section-two {
     color: whitesmoke;
 }
 
+.section-two h2 {
+    text-align: center;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -96,7 +100,8 @@ header, .section-two {
 
 .section-two-image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
 
 .feature-image {
@@ -119,7 +124,7 @@ footer {
 
     .section-two-image-container {
         flex-direction: column;
-
+        margin: 5px;
     }
 
     .feature-image {
