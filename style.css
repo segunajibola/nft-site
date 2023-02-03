@@ -14,6 +14,7 @@ h1, h3 {
 h1 {
     color: whitesmoke;
     font-size: 36px;
+    text-align: center;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
 h3 {
     color: #d0aaff;
     font-size: 20px;
+    text-align: center;
 }
 
 p {
@@ -93,7 +95,7 @@ header, .section-two {
 }
 
 .container {
-    width: 620px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -115,3 +117,40 @@ footer {
     text-align: center;
     color: #5f29a3;
 }
+
+/* media queries */
+
+@media screen and (max-width: 430px) {
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section-two-image-container {
+        flex-direction: column;
+
+    }
+
+    .feature-image {
+        width: 95%;
+        margin: auto;
+    }
+
+    p {
+        margin: 10px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .btn-dark, .btn-light {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .section-two p {
+
+    }
+}
+
